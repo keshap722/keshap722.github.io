@@ -139,3 +139,12 @@ ul.main-menu li a.active {
 .show {
   display:block;
 }
+
+.headshot {
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+}
