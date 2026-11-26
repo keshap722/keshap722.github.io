@@ -164,7 +164,7 @@ ul.main-menu li a.active {
 
 .img_left {
     float: left;
-    width: 250px;
+    width: 350px;
     max-width: 40%;
     height: auto;
     margin: 0 20px 10px 0;
@@ -172,7 +172,7 @@ ul.main-menu li a.active {
 
 .img_right {
     float: right;
-    width: 250px;
+    width: 350px;
     max-width: 40%;
     height: auto;
     margin: 0 0 10px 20px;
