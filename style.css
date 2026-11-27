@@ -192,7 +192,7 @@ ul.main-menu li a.active {
 
 .image-row img {
     width: 32%;
-    height: auto;
+    height: 200px;
     object-fit: cover;
     border-radius: 0;
 }
