@@ -91,7 +91,7 @@
               from differences in star formation histories between galaxies.
               The main objective of my project is to constrain the parameters (slope, normalization, and scatter) and high-mass behavior of the relation, since results differ among previous studies. 
               To do this, I'm using a JWST sample of ~70,000 galaxies across a wide mass range and fitting the sequence with the emcee package out to z~9. 
-              On the left is a recent example of the Star-Forming Main Sequence (Clarke et al. 2024) compared to other literature results.  
+              On the left is a recent example of the Star-Forming Main Sequence (Clarke et al. 2024) compared to other literature results for one redshift bin.  
               </p>
                  </div>
 
@@ -118,9 +118,10 @@
             <p>
               In my senior year of undergrad, I did an honors thesis on improving measurements of the effective bulge radii for a small sample of early-type galaxies 
               with GALFIT modeling. Previous works had generally used one-component models for galaxies to obtain this radius and its corresponding
-              stellar velocity dispersion. However, within a galaxy, there can be several more structures, so a multi-component approach is necessary. The measured stellar velocity dispersion
-              is dependent on the effective radius, as shown in the left figure. This is a stellar kinematic map, where the color represents the stellar velocity dispersion, for 
-              one galaxy in my sample, NGC 3945, where I've overlaid my measured radius (the solid circle), which was ~5x smaller than previous literature (the dotted and dashed circles). 
+              stellar velocity dispersion. However, within a galaxy, there can be several more structures, so a multi-component approach is necessary. On the left is a stellar kinematic 
+              map for NGC 3945, where the color represents the stellar velocity dispersion. 
+              I've overlaid my measured radius (the solid circle), which was ~5x smaller than previous literature (the dotted and dashed circles), and it is evident that
+              the measured stellar velocity dispersion is dependent on the effective radius 
               </div>
 
             <div class="project">
@@ -128,7 +129,11 @@
               <h3>AGN Emission Line Modeling</h3>
             <p>
               During my REU program, I modeled the H&alpha;, [O I], [N II] doublet, and [S II] doublet emission lines for an AGN in a Type 1 quasar to probe whether there was evidence 
-              for large-scale gas outflows. I initially began by reducing the data 
+              for large-scale gas outflows. I initially began by reducing the data using IRAF routines and IDL. Following this, I used the BEAT fitting program to fit the emission lines with 
+              multi-component Gaussians. The multiple components represent the different regions of the AGN where we can observe gas (i.e. the broad-line and narrow-line regions). 
+              On the right is an example fit where the indigo is the composite fit to the grey line, which represents the observed spectrum. The low-flux blue curve is the component from the narrow-line
+              region, while the pink is the sum of the broad and suspected-intermediate line region components. Based on all my fits, I found no evidence for large-scale outflows from the narrow-line 
+              region but found suggestions for an unresolved intermediate-line region. 
             </p>
             </div>
           </div> 
@@ -137,8 +142,8 @@
           
             <div id="cv" class="content-region hide">
             <p>
-                View my full-length 
-                <a href="CV_Kesha_Patel.pdf" target="_blank">CV here</a>.
+                Here's my full-length 
+                <a href="CV_Kesha_Patel.pdf" target="_blank">CV</a>!
             </p>
         
             <iframe src="CV_Kesha_Patel.pdf"
