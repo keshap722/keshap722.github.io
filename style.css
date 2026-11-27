@@ -196,3 +196,6 @@ ul.main-menu li a.active {
     border-radius: 0;
 }
 
+.clear-float {
+    clear: both;
+}
