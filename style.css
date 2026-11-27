@@ -183,6 +183,7 @@ ul.main-menu li a.active {
 }
 
 .image-row {
+   clear: both;
     display: flex;
     gap: 15px;
     justify-content: center;
