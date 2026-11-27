@@ -181,3 +181,18 @@ ul.main-menu li a.active {
 .project h3 {
     margin-bottom: 10px;
 }
+
+.image-row {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.image-row img {
+    width: 30%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0;
+}
+
